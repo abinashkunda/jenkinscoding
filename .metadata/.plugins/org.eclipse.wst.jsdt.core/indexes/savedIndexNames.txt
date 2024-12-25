@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\abina\OneDrive\Desktop\InterviewSwiggy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3026247180.index
+4068421153.index
+3277034887.index
+4047354089.index
+2117231041.index
+395092318.index
