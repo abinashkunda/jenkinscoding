@@ -31,6 +31,9 @@ public class Demo1 {
 		System.out.println("Response Body:");
         System.out.println(response.prettyPrint());
         
+        int page = response.jsonPath().getInt("page");
+        Assert.assertEquals(page, 2, "Expected page is 2");
+        
         
 	}
 
