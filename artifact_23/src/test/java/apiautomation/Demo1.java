@@ -1,5 +1,6 @@
 package apiautomation;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -24,8 +25,13 @@ public class Demo1 {
 				.extract()
 				.response();
 		
+		int statusCode = response.getStatusCode();
+        Assert.assertEquals(statusCode, 200, "Expected status code is 200");
+		
 		System.out.println("Response Body:");
         System.out.println(response.prettyPrint());
+        
+        
 	}
 
 }
